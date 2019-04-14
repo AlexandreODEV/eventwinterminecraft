@@ -1,0 +1,28 @@
+first-item:
+  name: '&c&lJOYEUSE FETES'
+  id: 399
+  slot: 5
+  lore:
+    - '&7Tout le serveur vous souhaite de bonne fêtes'
+  command: ''
+  allow-drop: false
+  give-at-respawn: true
+  block-movement: true
+  first-join-only: false
+  cooldown-seconds: 1
+  permission: 'customjoinitems.test'
+box-item:
+  name: '&c&lJump &7(Clic droit)'
+  id: 165
+  slot: 7
+  lore:
+    - '&7Pour aller au jump clic droit'
+  command: 'warp jump'
+  permission: 'customjoinitems.jump'
+  cooldown-seconds: 1
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: true
+  disabled-worlds: world_nether, world_the_end
+  give-on-world-change: true

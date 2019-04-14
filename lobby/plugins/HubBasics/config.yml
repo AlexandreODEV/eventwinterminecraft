@@ -1,0 +1,197 @@
+Messages:
+  Debug: false
+Bungeecord: true
+Hub:
+  CommandsEnabled: false
+  Location:
+    Server: lobby
+    X: 200
+    Y: 74
+    Z: 200
+    Yaw: 0
+    Pitch: 0
+    World: world
+Connection_Messages:
+  Enabled: true
+  Join: ''
+  Leave: ''
+  FirstJoin: ''
+Fixed_Weather:
+  Load: true
+  Enabled:
+  - world
+Keep_Food:
+  Load: true
+  Enabled:
+  - world
+Keep_Health:
+  Load: true
+  Enabled:
+  - world
+Anti_Void:
+  Load: false
+  Enabled:
+  - world
+  Message: '&7Teleportation au spawn'
+Jump_Pads:
+  Load: false
+  Enabled:
+  - world
+  Force: 5
+  Material: REDSTONE_BLOCK
+  RequirePressurePlate: false
+Double_Jump:
+  Load: false
+  Enabled:
+  - world
+  Force: 0.3
+  Sound: ENTITY_BAT_TAKEOFF
+Advanced_Motd:
+  Enabled: false
+  Motds:
+  - ''
+  - ''
+  Switchrate: 20
+Command_Override:
+  Load: false
+  Commands:
+  - ''
+Automated_Broadcasts:
+  Enabled: false
+  Messages:
+  - ''
+  Timing: 600
+  RandomOrder: false
+Bossbar_Messages:
+  Enabled: false
+  Messages:
+  - '&f&lBienvenue sur &2&lVOTRESERVEUR'
+  - '&e&lAmuse toi bien sur VOTRESERVEUR !'
+  - '&6&lSi tu as un probleme ou une question rend toi sur le forum/teamspeak'
+  Timing: 15
+Join_Teleport:
+  Load: true
+  Enabled:
+  - world
+  X: 57.5
+  Y: 80
+  Z: 17.5
+  Yaw: 89.93277
+  Pitch: -2.8364992
+  World: world
+Join_Items:
+  Load: false
+  Enabled:
+  - world
+  ClearOnConnect: true
+  Items:
+  - Type: DIAMOND_SWORD
+    Amount: 1
+    Name: ?cThis is just an example
+    Enchantments:
+      DAMAGE_ALL: 2
+    Droppable: true
+  - Type: GOLD_AXE
+    Amount: 1
+    Name: ?aPlease edit the config.yml
+    Enchantments:
+      DURABILITY: 1
+    Droppable: true
+    Commands:
+      OnRightClick:
+        Command: kill
+        UseConsole: false
+  - Type: POTION
+    Amount: 1
+    Name: '?3Items use our custom item serialization! NB: Still in BETA!'
+    Lore:
+    - ?7Yay, you can even add lore!
+    - ?aMake it fancy :)
+    Droppable: true
+    Commands:
+      OnInventoryClick:
+        Command: say Hello! I am an example!
+        UseConsole: true
+  AddOnDeath: true
+Graphical_Menus:
+  Load: false
+  Menus:
+  - Title: ?aThis is another example
+    Height: 5
+    AddToInventory: false
+    Item:
+      Type: ANVIL
+      Amount: 1
+      Droppable: true
+    Contents:
+      '14':
+        Type: GOLD_BLOCK
+        Amount: 1
+        Name: ?cYou can add as many as you want!
+        Droppable: true
+        Commands:
+          OnInventoryClick:
+            Command: me just tested the cool new HubBasics menu API!
+            UseConsole: false
+      '10':
+        Type: DIAMOND_BLOCK
+        Amount: 1
+        Name: ?cAll items use the same syntax!
+        Droppable: true
+        Commands:
+          OnInventoryClick:
+            Command: kill
+            UseConsole: false
+      '18':
+        Type: IRON_BLOCK
+        Amount: 1
+        Name: ?eWanna create a 100% custom server menu?
+        Droppable: true
+        Commands:
+          OnInventoryClick:
+            Command: server SERVER_NAME_HERE
+            UseConsole: false
+      '22':
+        Type: EMERALD_BLOCK
+        Amount: 1
+        Name: ?3This system is still in BETA!
+        Lore:
+        - ?fPlease report bugs quickly so we can fix them!
+        Droppable: true
+        Commands:
+          OnInventoryClick:
+            Command: me needs to edit the config file :)
+            UseConsole: false
+Warps:
+  Load: true
+  Enabled:
+  - world
+  Warps:
+    spawn:
+      x: 57.45812966439117
+      y: 80.0
+      z: 17.459131905708848
+      yaw: 89.93277
+      pitch: -2.8364992
+      world: world
+    jump:
+      x: 42.51085195824228
+      y: 79.0
+      z: 76.50357235840664
+      yaw: -0.31258082
+      pitch: -1.1093442
+      world: world
+    bureau:
+      x: 1.5005774620811343
+      y: 86.0
+      z: -35.51634189381541
+      yaw: -271.01758
+      pitch: 89.1364
+      world: world
+    pn:
+      x: 1.5005774620811343
+      y: 86.0
+      z: -35.51634189381541
+      yaw: -269.72217
+      pitch: 5.7994556
+      world: world

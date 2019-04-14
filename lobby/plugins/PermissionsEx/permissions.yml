@@ -1,0 +1,29 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - chestcommands.open
+    - chestcommands.command.open
+    - chestcommands.open.menu.yml
+    - chestcommands.open.profil.yml
+    - chestcommands.open.settings.yml
+    - chestcommands.open.bedwars.yml
+    - customjoinitems.test
+    - customjoinitems.jump
+    - customjoinitems.settings
+    - customjoinitems.friends
+    - scoreboard.default
+    - ultracosmetics.receivechest
+    - ultracosmetics.openmenu
+    - ultracosmetics.command.*
+    - ultracosmetics.gadgets.*
+    - ultracosmetics.pets.*
+    - ultracosmetics.mounts.*
+    - ultracosmetics.morphs.*
+    - ultracosmetics.hats.*
+    - ultracosmetics.particleeffects.*
+    - ultracosmetics.suits.*
+    - ultracosmetics.emotes.*
+    - hubbasics.commands.warp
+schema-version: 1

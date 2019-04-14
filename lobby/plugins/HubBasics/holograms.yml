@@ -1,0 +1,36 @@
+hologram:
+  '1':
+    location: '{"w":"world","x":66.54255362380795,"y":80.375,"z":12.50003575732863}'
+    lines: "[{\"line\":0,\"text\":\"\xa7e\xa7lPetit Papa No\xebl\",\"uuid\":\"e1b6b404-7264-477d-bb27-0388cbdb62e4\"\
+      },{\"line\":1,\"text\":\"\xa7f\xa7lQuand tu descendras du ciel\",\"uuid\":\"\
+      2a2c8210-df1e-4270-a542-6af0a9b8beda\"},{\"line\":2,\"text\":\"\xa7e\xa7lAvec\
+      \ des jouets par milliers\",\"uuid\":\"f9b99afa-3820-4372-9f60-b9cb1acb7cb3\"\
+      },{\"line\":3,\"text\":\"\xa7f\xa7lN'oublie pas mon petit soulier\",\"uuid\"\
+      :\"7922f594-97a6-4de3-9146-cc07a068ff09\"}]"
+  '2':
+    location: '{"w":"world","x":66.51316782064643,"y":80,"z":22.453839751470497}'
+    lines: "[{\"line\":0,\"text\":\"\xa7e\xa7lMais, avant de partir\",\"uuid\":\"\
+      e970fbee-d089-4423-9e03-3bc80970c094\"},{\"line\":1,\"text\":\"\xa7f\xa7lIl\
+      \ faudra bien te couvrir\",\"uuid\":\"fc27847f-f3ff-4644-9e54-b0f6f4674642\"\
+      },{\"line\":2,\"text\":\"\xa7e\xa7lDehors, tu vas avoir si froid\",\"uuid\"\
+      :\"a2b8b1e2-b0d3-4ef1-b3d6-2f781d5b47fb\"},{\"line\":3,\"text\":\"\xa7f\xa7\
+      lC'est un peu \xe0 cause de moi\",\"uuid\":\"d649db4b-350d-4c29-92d6-d8b7387db4dd\"\
+      }]"
+  '3':
+    location: '{"w":"world","x":45.46562573810734,"y":79,"z":77.47394407609254}'
+    lines: "[{\"line\":0,\"text\":\"\xa7a\xa7lASTUCES\",\"uuid\":\"2f3a4907-dbc9-4907-93e6-c6fde3d78878\"\
+      },{\"line\":1,\"text\":\"\xa7f\xa7lUtilise le tp dans\",\"uuid\":\"8cfc50cc-825b-4739-a1f6-e83d81b940a1\"\
+      },{\"line\":2,\"text\":\"\xa7f\xa7lton inventaire pour\",\"uuid\":\"c246896a-91d3-49bc-839f-fa511a3a64df\"\
+      },{\"line\":3,\"text\":\"\xa7f\xa7lrefaire le jump !\",\"uuid\":\"e41e924a-9de8-4370-bc9e-52cc0f30ad80\"\
+      }]"
+  '4':
+    location: '{"w":"world","x":38.48104676563251,"y":79,"z":77.57199630425092}'
+    lines: "[{\"line\":0,\"text\":\"\xa7a\xa7lASTUCES\",\"uuid\":\"1f96fd6b-b9dc-42df-9a0f-d213fca431d8\"\
+      },{\"line\":1,\"text\":\"\xa7f\xa7lUtilise le tp dans\",\"uuid\":\"7b97a0ce-d5c6-45e2-b3d7-be8f30846167\"\
+      },{\"line\":2,\"text\":\"\xa7f\xa7lton inventaire pour\",\"uuid\":\"416102e6-f5ed-4697-94e0-08cffcc08ac1\"\
+      },{\"line\":3,\"text\":\"\xa7f\xa7lrefaire le jump !\",\"uuid\":\"eaf1c4cf-88b6-4588-9d78-e0003814f3cc\"\
+      }]"
+  '5':
+    location: '{"w":"world","x":-56.53606763641903,"y":79,"z":77.46131482021586}'
+    lines: "[{\"line\":0,\"text\":\"\xa7f\xa7l>>> \xa75\xa7lFINIS \xa7f\xa7l<<<\"\
+      ,\"uuid\":\"dc829c59-ec41-4c1c-8689-3aa1a9e5737c\"}]"
