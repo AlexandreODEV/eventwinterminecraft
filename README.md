@@ -15,7 +15,7 @@ L'ensemble du partage est déjà configuré (le serveur à été testé par 16 p
 - Lobby (map inspiré de Hypixel modifié par nos soins, avec UltraComestic, Jump, AnimatedFrames, CratesPlus, HubBasics...)
 - TheTowers (map de base avec quelques modifications esthétiques)
 
-Si vous ne savez pas utiliser les plugins cités au dessus merci de vous renseignez sur les partages des plugins (disponible sur spigotmc par exemple).
+La plupart des plugins mini-jeux sont automatiques comme le Bedwars lancé automatiquement quand le minimum de joueurs est atteins. Si vous ne savez pas utiliser les plugins cités au dessus merci de vous renseignez sur les partages des plugins (disponible sur spigotmc par exemple).
 
 II. Configuration
 
