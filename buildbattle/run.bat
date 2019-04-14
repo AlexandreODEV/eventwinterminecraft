@@ -1,0 +1,1 @@
+java -Xms512M -Xmx1024M -jar -XX:ParallelGCThreads=1 spigot.jar

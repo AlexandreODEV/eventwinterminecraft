@@ -1,0 +1,161 @@
+#
+#        Build Battle 3 configuration file
+#               Edit it by yourself
+#          Read descriptions CAREFULLY
+#   You don't want to break anything, do you?
+#
+
+# Locale of BB 3 language. By default it's english.
+# Available localizations:
+#   default - uses messages from 'language.yml' file.
+#   de - Deutsche sprache          pl - Jezyk polski
+#   es - Idioma español            fr - Langue française
+#   zh - 简体中文                   vn - Tiếng Việt
+#   hu - Magyar nyelv              kr - 한국어
+#   tr - Türk dili                 id - Bhasa Indonesia
+#   et - Eesti keel                ru - Русский язык
+#   cs - Český jazyk               ro - Limba română
+locale: fr
+
+# Enable boss bar for the game?
+Boss-Bar-Enabled: true
+
+# Should we hook into bungee cord? (If you wanna use arena per server option)
+# You STILL need to use external addon for HUB server game signs
+BungeeActivated: true
+
+# Enable Inventory Manager for your games? (VERY USEFUL feature for MULTI ARENA)
+# This saves inventory of players and restores it after player leaves arena.
+# Saved elements: max health, health, food, experience, full inventory, armor contents, fire ticks, active potions
+InventoryManager: false
+
+# Basic game permissions
+Basic-Permissions:
+  # Permissions to edit/create arenas
+  Arena-Edit-Permission: "buildbattle.editgames"
+  # <arena> represents arena name (NOT MAP NAME!), for example: 'buildbattle.join.Build1'
+  # use 'buildbattle.join.*' to enable access to all arenas
+  Join-Permission: "buildbattle.join.*"
+
+# Should /bb leave command be disabled?
+Disable-Leave-Command: false
+
+# Total time of building in game
+Build-Time-In-Seconds: 480
+
+# Total time of voting per player plot
+Voting-Time-In-Seconds: 20
+
+# Total time of building in game in TEAM game mode
+Team-Build-Time-In-Seconds: 540
+
+# Total time of voting for themes before starting
+Theme-Voting-Time-In-Seconds: 25
+
+# Default floor material name
+Default-Floor-Material-Name: log
+
+# Should mob spawning be disabled?
+Disable-Mob-Spawning-Completely: true
+
+# How many particle effects should have one spawned particle
+Amount-One-Particle-Effect-Contains: 20
+
+# Max amount of particles to spawn
+Max-Amount-Particles: 25
+
+# Time of refreshing particles
+Particle-Refresh-Per-Tick: 10
+
+# Should server be disabled after the game ends?
+Bungee-Shutdown-On-End: false
+
+# Should win commands be activated?
+Win-Commands-Activated: false
+
+# Should end game commands be activated?
+End-Game-Commands-Activated: true
+
+# Should second place commands be activated?
+Second-Place-Commands-Activated: false
+
+# Should third place commands be activated?
+Third-Place-Commands-Activated: false
+
+# Max amount of mobs to spawn per plot
+Mobs-Max-Amount-Per-Plot: 20
+
+# Should we hide players outside game?
+Hide-Players-Outside-Game: true
+
+# Time in lobby to wait before start
+Lobby-Starting-Time: 60
+
+# All game themes, type here everything you want your players to build.
+Game-Themes:
+- Cadeaux
+- Pere noel
+- Reine de noel
+- Chalet
+- Bonhomme de neige
+- Lutin
+- Crèche de noel
+
+# Blacklisted item names, you can't use them while building.
+Blacklisted-Item-Names:
+- tnt
+- diamond_block
+
+# Commands executed when player wins
+# Use %PLAYER% placeholder to replace it with winner's name
+Win-Commands:
+- say %PLAYER% won the game!
+- give %PLAYER% 1000
+
+# Commands executed for second winner
+Second-Place-Commands:
+- say %PLAYER% become second
+- give %PLAYER% 1000
+
+# Commands executed for third winner
+Third-Place-Commands:
+- say %PLAYER% became third
+- give %PLAYER% 1000
+
+# Commands executed for every player after the game ends
+End-Game-Commands:
+- say %PLAYER% has played a game!
+- give %PLAYER% 100
+
+# Commands which can be executed while being in game
+Whitelisted-Commands:
+- me
+- help
+
+# Should blocks behind game signs change their color based on game state?
+# They will change color to:
+# - white (waiting for players) stained glass
+# - yellow (starting) stained glass
+# - orange (in game) stained glass
+# - gray (ending) stained glass
+# - black (restarting) stained glass
+Signs-Block-States-Enabled: true
+
+Update-Notifier:
+  # Should we check for updates on plugin start/after admin join?
+  # You REALLY should have this true!
+  Enabled: false
+  # Should we inform you when beta version is out?
+  # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
+  Notify-Beta-Versions: false
+
+# Disable or enable MySQL database here, see mysql.yml for more
+DatabaseActivated: false
+
+# Should plugin send 'debug spam' to console? IT CAN HELP IF YOU OCCUR SOME WEIRD BEHAVIOUR FROM PLUGIN
+Debug: false
+
+# Don't modify.
+Version: 3
+
+# No way! You've reached the end! But... where's the dragon!?

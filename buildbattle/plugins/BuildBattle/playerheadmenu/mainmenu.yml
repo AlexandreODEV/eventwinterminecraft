@@ -1,0 +1,42 @@
+animals:
+  data: 3
+  displayname: '&6Animal heads'
+  lore:
+  - to open
+  - heads menu
+  material: 397
+  enabled: true
+  config: animalheads
+  permission: particles.VIP
+  slot: 15
+  owner: MHF_Pig
+  inventorysize: 18
+  menuname: Animal Heads Menu
+miniblocks:
+  data: 3
+  displayname: '&6Mini block heads'
+  lore:
+  - to open
+  - blocks heads menu
+  material: 397
+  enabled: true
+  config: miniblocks
+  permission: particles.VIP
+  slot: 11
+  owner: MHF_TNT2
+  inventorysize: 18
+  menuname: Mini Blocks Menu
+info:
+  data: 3
+  displayname: '&6Info heads'
+  lore:
+  - to open
+  - heads menu
+  material: 397
+  enabled: true
+  config: info
+  permission: particles.VIP
+  slot: 13
+  owner: MHF_QUESTION
+  inventorysize: 9
+  menuname: Info blocks

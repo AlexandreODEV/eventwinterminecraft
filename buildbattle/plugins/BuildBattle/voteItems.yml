@@ -1,0 +1,27 @@
+# Vote items configuration
+# Number mean slot position, material, data and displayname are obvious
+
+'0':
+  material: 159
+  displayname: "&4&lDEGEU"
+  data: 14
+'1':
+  material: 172
+  displayname: "&c&lBOF"
+  data: 0
+'2':
+  material: 159
+  displayname: "&a&lOK"
+  data: 5
+'3':
+  material: 159
+  displayname: "&2&lBIEN"
+  data: 13
+'4':
+  material: 159
+  displayname: "&5&lSUPER BIEN"
+  data: 11
+'5':
+  material: 159
+  displayname: "&6&lHYPER BIEN"
+  data: 4

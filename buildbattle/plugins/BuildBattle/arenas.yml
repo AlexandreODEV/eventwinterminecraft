@@ -1,0 +1,60 @@
+instances:
+  noel:
+    lobbylocation: world,73.96438847366896,83.0,-40.997446894840984,-270.8506,2.7769506
+    Endlocation: world,73.96438847366896,83.0,-40.997446894840984,-270.8506,2.7769506
+    minimumplayers: 10
+    maximumplayers: 16
+    mapname: noel
+    signs: []
+    plots:
+      '0':
+        minpoint: world,28.0,96.0,30.0,0.0,0.0
+        maxpoint: world,2.0,69.0,4.0,0.0,0.0
+      '1':
+        minpoint: world,28.0,96.0,-2.0,0.0,0.0
+        maxpoint: world,2.0,69.0,-28.0,0.0,0.0
+      '2':
+        minpoint: world,28.0,96.0,-34.0,0.0,0.0
+        maxpoint: world,2.0,69.0,-60.0,0.0,0.0
+      '3':
+        minpoint: world,28.0,96.0,-66.0,0.0,0.0
+        maxpoint: world,2.0,69.0,-92.0,0.0,0.0
+      '4':
+        minpoint: world,-4.0,96.0,30.0,0.0,0.0
+        maxpoint: world,-30.0,69.0,4.0,0.0,0.0
+      '5':
+        minpoint: world,-4.0,96.0,-2.0,0.0,0.0
+        maxpoint: world,-30.0,69.0,-28.0,0.0,0.0
+      '6':
+        minpoint: world,-4.0,96.0,-34.0,0.0,0.0
+        maxpoint: world,-30.0,69.0,-60.0,0.0,0.0
+      '7':
+        minpoint: world,-4.0,96.0,-66.0,0.0,0.0
+        maxpoint: world,-30.0,69.0,-92.0,0.0,0.0
+      '8':
+        minpoint: world,-36.0,96.0,30.0,0.0,0.0
+        maxpoint: world,-62.0,69.0,4.0,0.0,0.0
+      '9':
+        minpoint: world,-36.0,96.0,-2.0,0.0,0.0
+        maxpoint: world,-62.0,69.0,-28.0,0.0,0.0
+      '10':
+        minpoint: world,-36.0,96.0,-34.0,0.0,0.0
+        maxpoint: world,-62.0,69.0,-60.0,0.0,0.0
+      '11':
+        minpoint: world,-36.0,96.0,-66.0,0.0,0.0
+        maxpoint: world,-62.0,69.0,-92.0,0.0,0.0
+      '12':
+        minpoint: world,-68.0,96.0,30.0,0.0,0.0
+        maxpoint: world,-94.0,69.0,4.0,0.0,0.0
+      '13':
+        minpoint: world,-68.0,96.0,-2.0,0.0,0.0
+        maxpoint: world,-94.0,69.0,-28.0,0.0,0.0
+      '14':
+        minpoint: world,-68.0,96.0,-34.0,0.0,0.0
+        maxpoint: world,-94.0,69.0,-60.0,0.0,0.0
+      '15':
+        minpoint: world,-68.0,96.0,-66.0,0.0,0.0
+        maxpoint: world,-94.0,69.0,-92.0,0.0,0.0
+    gametype: SOLO
+    isdone: true
+    world: worldname
