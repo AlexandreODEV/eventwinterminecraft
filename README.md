@@ -48,6 +48,8 @@ Pour utiliser les différentes fonctionnalités mettez-vous opérateurs, aller d
 
 Faites en bon usage, vous pouvez également modifier les textes, et map pour faire un event Paques par exemple ou autres. Libre à votre créativité et envies.
 
+Téléchargement: (Cliquez sur "Clone or download" puis "Download ZIP")
+
 Screenshots:
 https://image.noelshack.com/fichiers/2019/15/7/1555259936-unknown-5.png
 https://image.noelshack.com/fichiers/2019/15/7/1555259950-unknown-6.png
