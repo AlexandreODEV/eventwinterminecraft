@@ -1,0 +1,126 @@
+language-name: English
+language-intro: 'Current language: &a%NAME%'
+messages:
+  join-subtitle: '&aChoisi ton equipe et ton kit'
+  boarding-title: '&5&k||&f Away boarders &5&k||'
+  boarding-subtitle: '&6Un mouton a bord par minute !'
+  boosters-message: '&5&k||&a Laine Bonus &5&k||&6 Frapper des blocs magiques !'
+  finish-equality: '&e&k|&b&k|&a&k|&c&k|&d&k|&r&b&l Egalite &e&k|&b&k|&a&k|&c&k|&d&k|&r'
+  game-end-equality-description: '&aLe temps est ecoule'
+  player-join-message: '%PLAYER% &aa rejoint la partie'
+  team-join-message: You join the %TEAM% team
+  kit-choose-message: 'Kit selected :'
+  kits-item: '&6Kits &7(Clic-droit)'
+  stats-kill: Kills
+  stats-name: Name
+  starting-game: '&6&lFin dans &e&l%TIME%'
+  seconds: seconds
+  minutes: minutes
+  second: second
+  minute: minute
+  blue-name: Blue
+  red-name: Red
+  spec-name: Spectateur
+  hub-teleportation: '&aTeleportation au lobby..'
+  connection-failed: '&cConnection failed.'
+  scoreboard-team: Team
+  records: '&3Show records for &b%PLAYER%'
+  booster-action: '%PLAYER% activate %BOOSTER%'
+  booster-arrow-knockback: '&7&lKnockback Arrows &e(10 seconds)'
+  booster-arrow-fire: '&6&lFire Arrows &e(15 seconds)'
+  booster-more-sheep: '&b&lMore Sheep &e(+1 sheep!)'
+  booster-nausea: '&5&lNausea &e(10 seconds)'
+  booster-poison: '&2&lPoison &e(4 seconds)'
+  booster-regeneration: '&d&lRegeneration &e(6 seconds)'
+  booster-resistance: '&f&lResistance &e(30 seconds)'
+  died-message: '%VICTIM% &7died.'
+  slayed-message: '%VICTIM% &7has been slayed by %KILLER%.'
+  kit-better-bow-name: '&eBetter bow'
+  kit-more-health-name: '&eMore health'
+  kit-better-sword-name: '&eBetter sword'
+  kit-mobility-name: '&eMobility'
+  kit-builder-name: '&eBuilder'
+  kit-amored-sheep-name: '&eArmored sheep'
+  kit-more-sheep-name: '&eMore sheeps'
+  kit-null-name: '&eNone'
+  kit-more-sheep-description: |-
+    &7Gives chances to have
+    &7extra sheeps
+    &7
+    &b5% &7to receive one more sheep
+  kit-better-bow-description: |-
+    &7Improves your bow
+    &7and give it critical & punch
+    &7
+    &b20%&7 chance to punch
+    &7&b10% &7chance to critical
+  kit-more-health-description: "&7Increases health by &b2 &c\u2764"
+  kit-better-sword-description: |-
+    &7Improves your sword
+    &7
+    &b5% &7chance to critical
+  kit-mobility-description: |-
+    &7Improves your mobility
+    &7
+    &7Swiftness I
+    &7Feather falling I
+  kit-builder-description: |-
+    &7Gives you TNT and sand
+    &7Right click to activate TNT !
+    &7
+    &b2 &7TNT block
+    &7&b5 &7bricks
+  kit-amored-sheep-description: |-
+    &7Increases resistance and
+    &7health points of sheeps
+    &7
+    &b140% &7health
+  boarding-sheep-name: '&fBoarding sheep'
+  dark-sheep-name: '&8Dark sheep'
+  distorsion-sheep-name: '&5Distorsion sheep'
+  earthquake-sheep-name: '&6Earth Quake sheep'
+  explosive-sheep-name: '&cExplosive sheep'
+  fragmentation-sheep-name: '&8Fragmentation sheep'
+  frozen-sheep-name: '&bFrozen sheep'
+  healer-sheep-name: '&dHealer sheep'
+  incendiary-sheep-name: '&6Incendiary sheep'
+  intergalactic-sheep-name: '&1&lINTERGALACTIC SHEEP'
+  lightning-sheep-name: '&eThunder sheep'
+  remote-sheep-name: '&5Remote sheep'
+  seeker-sheep-name: '&aSeeker sheep'
+  swap-sheep-name: '&5Swap sheep'
+  swap-sheep-action-noplayer: '&cNo player arround your Swap sheep'
+  swap-sheep-action-teleportation: '&b&k|&a&k|&7 You were swapped &b&k|&a&k|'
+  eliminated: "&f\u2620 &c&lEliminated&f \u2620"
+  already-in-this-team: You're already in this team.
+  join-red-item: Join red team
+  join-blue-item: Join blue team
+  ghost-message-1: '&7You are now a &fGhost&7, to leave, type &e/hub'
+  ghost-message-2: '&7Only &fGhosts &7can hear your speak !'
+  sheep-launched: launched
+  sheep-received: 'Received: '
+  pre-start-subtitle: Prepare to fight !
+  game-start-title: '&bThe game is starting !'
+  game-start-subtitle: '&6one sheep every &a40 &6seconds'
+  ghost-message: You're a &fghost
+  stats-death: Deaths
+  particles-on: "Particles \xbb &aactivated"
+  particles-off: "Particles \xbb &cdeactivated"
+  cant-join-full-team: Unable to join this team, too many players!
+  players-deficit: There's not enough players.
+  stats-victory: Victories
+  leave-item: Back to Hub
+  out-of-the-game: Return to the fighting area !
+  scoreboard-title: SheepWars
+  kit-inventory: 'Kit: %KIT%'
+  stats-game-played: Games played
+  victory: Team %WINNER% won
+  congratulations: Congratulations
+  game-end-title: Game Over
+  user-data-loading: '&2Data loading..'
+  user-data-loaded: '&aData loaded!'
+  user-data-unreachable: '&cData unreachable.'
+  database-not-connected: '&cNo database connection.'
+  kit-not-unlocked: You don't have this kit &8(&6You need %VICTORIES_REQUIRED% victories more&8)
+  kit-how-to-unlock: "&cTo unlock this kit, you \n&cneed &b%VICTORIES% &cvictories\
+    \ or have the\n&b%PERMISSION% &cpermission."

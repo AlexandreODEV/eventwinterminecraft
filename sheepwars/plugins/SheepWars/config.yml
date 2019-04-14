@@ -1,0 +1,104 @@
+#<--<< SheepWarsReleased Configuration >>-->
+#
+#You can change the in-game prefix
+#You can use color codes (&1, &3, &l,...)
+prefix: '&8[&9SheepWars&8]'
+#
+#The fallback server is the name of the server where
+#people are automatically redirecting after the game.
+fallback-server-name: lobby
+#
+#The countdown before the game starts (in seconds)
+countdown-before-starting: 60
+#
+#Number of players who is required
+#to start the countdown
+min-players-to-start: 2 
+#
+#To set up the max players, simply
+#change it in your server.properties
+#VIP will be able to join the server
+#even if it is full ;)
+#
+#The command to automatically
+#execute when the game is finished
+dispatch-command: 'stop'
+#
+#The scoreboard decoration
+#Wright down your server name, place holder or whatever
+#Place holder -> %IP% = server's ip
+scoreboard-decoration: 'Event Winter'
+#
+#The language that players will have by
+#default when joining for first time.
+#Wright the language-name that you wrote
+#in languages/your_language.yml
+force-language: 'English'
+#
+#You can configure the item
+#id of each items on join
+item:
+  kit-id: 130
+  # -> 130 = Enderchest
+  return-to-hub-id: 355
+  # -> 355 = Bed
+  particles-on-id: 369
+  # -> 369 = Blaze rod
+  particles-off-id: 280
+  # -> 280 = Stick
+#
+#All configurable rewards
+rewards:
+  on-kill:
+    do-command: false
+    commands:
+      - 'tell %PLAYER% You got a kill!'
+      - 'eco give %PLAYER% 10'
+  on-death:
+    do-command: false
+    commands: 
+      - 'eco remove %PLAYER% 10'
+  on-win:
+    do-command: false
+    commands: 
+      - 'eco give %PLAYER% 50'
+  on-lose:
+    do-command: false
+    commands: 
+      - 'eco remove %PLAYER% 50'
+#
+#At the moment, you can configure
+#how many wins are required to get
+#the kit.
+kit:
+  more-health:
+    required-wins: 5
+  better-bow:
+    required-wins: 10
+  better-sword:
+    required-wins: 10
+  more-sheep:
+    required-wins: 12
+  builder:
+    required-wins: 20
+  mobility:
+    required-wins: 15
+  armored-sheep:
+    required-wins: 20
+#
+#All MySQL settings
+mysql:
+  enable: false
+  host: localhost
+  port: 3306
+  database: sheepwars
+  user: root
+  pass: root
+#
+#Setup the MOTD for different game states
+game-state:
+  lobby: "&2\u2714 &aWaiting &2\u2714"
+  in-game: "&4\u2716 &cRunning &4\u2716"
+  post-game: "&6\u2261 &eEnding &6\u2261"
+  terminated: "&5\u26A0 &dRestarting &5\u26A0"
+#<--<< SheepWarsReleased Configuration >>-->
