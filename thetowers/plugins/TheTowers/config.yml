@@ -1,0 +1,96 @@
+# 
+# +------------------------------------------------------+ #
+# |          The Towers Plugin by Snowy_dvp              | #
+# +------------------------------------------------------+ #
+Daylightcycle: false
+Armors_drop: false
+CanOpenAdverseChests: false
+Worlds:
+  WorldSpawn: Spawn
+  BungeeCoord_Support: true
+  BungeeCoord_Lobby_Server: lobby
+Teams:
+  MaxPlayersPerTeams: 10
+  Run_auto: true
+  TeamJoinAfterStart: false
+Timers:
+  StartTimer: 10
+  EndTimer: 15
+Scoreboard:
+  Title: The Towers
+  Points: 10
+  Enabled: true
+Motd:
+  Enabled: false
+Menu:
+  Item: 370
+  Title: Choisir une equipe
+  Position: 1
+Coordinates:
+  Waitrooms:
+    Blue:
+      x: 0
+      y: 252
+      z: 1152
+    Red:
+      x: 0
+      y: 252
+      z: 1152
+  Lobby:
+    x: 0
+    y: 252
+    z: 1152
+    yaw: -180.36682
+  Spawns:
+    Blue:
+      x: -84
+      y: 192
+      z: 1152
+      yaw: -90.0
+    Red:
+      x: 84
+      y: 192
+      z: 1152
+      yaw: -270.0
+    SpectatorSpawn:
+      x: 0
+      y: 208
+      z: 1152
+  Pools:
+    red:
+      '1':
+        x: 83
+        y: 200
+        z: 1153
+      '2':
+        x: 85
+        y: 200
+        z: 1151
+    blue:
+      '1':
+        x: -85
+        y: 200
+        z: 1153
+      '2':
+        x: -83
+        y: 200
+        z: 1151
+  Regions:
+    Blue:
+      '1':
+        x: -26
+        y: 187
+        z: 1174
+      '2':
+        x: -89
+        y: 208
+        z: 1130
+    Red:
+      '1':
+        x: 89
+        y: 214
+        z: 1173
+      '2':
+        x: 29
+        y: 190
+        z: 1130
