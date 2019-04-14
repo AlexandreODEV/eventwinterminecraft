@@ -19,6 +19,8 @@ La plupart des plugins mini-jeux sont automatiques comme le Bedwars lancé autom
 
 II. Configuration
 
+Par respect pour spigot et minecraft, merci de télécharger vous mêmes le spigot.jar à inserer dans chaque dossier en respectant la bonne version donné dans un fichier "version.txt" (lobby, bedwars_2, bedwars_4, thetowers, sheepwars, buildbattle).
+
 Le serveur est configuré en localhost (à utiliser avec hamachi). Pour le configurer sur un serveur dédié/vps ou hamachi vous devez changer les lignes dans proxy/config.yml:
 
 forced_hosts:
