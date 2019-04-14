@@ -1,0 +1,25 @@
+hologram:
+  '1':
+    location: '{"w":"world","x":-2.4832218221895115,"y":77,"z":-8.521975592737391}'
+    lines: "[{\"line\":0,\"text\":\"\xa72\xa7lEMERAUDE\",\"uuid\":\"8b54bf2b-e895-4888-9bee-906dc7e22067\"\
+      }]"
+  '2':
+    location: '{"w":"world","x":-6.51377555016343,"y":70,"z":6.49235497362983}'
+    lines: "[{\"line\":0,\"text\":\"\xa72\xa7lEMERAUDE\",\"uuid\":\"1a46cf68-cc83-4d04-a70a-0ebc6c3dd6a2\"\
+      }]"
+  '3':
+    location: '{"w":"world","x":-59.532192752965685,"y":67,"z":0.4853367939143317}'
+    lines: "[{\"line\":0,\"text\":\"\xa7b\xa7lDIAMANT\",\"uuid\":\"1f769a70-d52f-4940-8f25-4946501bba4a\"\
+      }]"
+  '4':
+    location: '{"w":"world","x":-0.47962493982566523,"y":67,"z":59.50823175359697}'
+    lines: "[{\"line\":0,\"text\":\"\xa7b\xa7lDIAMANT\",\"uuid\":\"dece0597-37a4-4725-81bc-6a82864623e1\"\
+      }]"
+  '5':
+    location: '{"w":"world","x":58.52120697801779,"y":67,"z":0.4735157333923682}'
+    lines: "[{\"line\":0,\"text\":\"\xa7b\xa7lDIAMANT\",\"uuid\":\"a798a6d5-2c19-4f29-bf63-3f76e3d20c92\"\
+      }]"
+  '6':
+    location: '{"w":"world","x":-0.49943254000174997,"y":67,"z":-58.52549474522381}'
+    lines: "[{\"line\":0,\"text\":\"\xa7b\xa7lDIAMANT\",\"uuid\":\"35a684e0-4930-4ee6-9fab-ee94ce32116e\"\
+      }]"
