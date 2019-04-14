@@ -1,0 +1,91 @@
+forge_support: false
+timeout: 30000
+online_mode: true
+log_commands: true
+listeners:
+- query_port: 25577
+  motd: ''
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    localhost: lobby
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: localhost:25565
+  max_players: 100
+  tab_size: 60
+  force_default_server: false
+connection_throttle: 4000
+groups:
+  Votrepseudominecraft:
+  - admin
+log_pings: true
+ip_forward: true
+prevent_proxy_connections: false
+network_compression_threshold: 256
+disabled_commands:
+- disabledcommandhere
+stats: 3f0c3fd6-2a8a-475a-9ff0-77c12b969357
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - party.*
+  - gssentials.join
+  - gssentials.message
+  - gssentials.message.color
+  - gssentials.message.global
+  - gssentials.message.hover
+  - gssentials.message.click
+  - gssentials.chat
+  - lobby.teleport
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - gssentials.admin.notify
+  - gssentials.admin.mute.exempt
+  - gssentials.admin.mute
+  - gssentials.admin.lookup.info
+  - gssentials.admin.lookup
+  - gssentials.list.restricted
+  - gssentials.list.offline
+  - gssentials.list
+  - gssentials.find
+  - gssentials.admin.hide
+  - gssentials.admin.hide.bypass
+  - gssentials.admin.send
+  - gssentials.admin.sendall
+  - gssentials.admin.chat
+  - gssentials.admin.alert
+servers:
+  lobby:
+    motd: '                   &6&lEVENT &f&lWINTER &f&l2&c&l0&f&l1&c&l8                     &5&lMINI
+      GAMES: &c&lBEDWARS&f&l,&b&lBUILD BATTLE&f&l ...         '
+    address: localhost:25568
+    restricted: false
+  bedwars_2:
+    motd: ''
+    address: localhost:25576
+    restricted: false
+  buildbattle:
+    motd: ''
+    address: localhost:25567
+    restricted: false
+  sheepwars:
+    motd: ''
+    address: localhost:25585
+    restricted: false
+  thetowers:
+    motd: ''
+    address: localhost:25586
+    restricted: false
+  bedwars_4:
+    motd: ''
+    address: localhost:25591
+    restricted: false
+player_limit: 30
